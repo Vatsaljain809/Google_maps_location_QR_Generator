@@ -3,7 +3,7 @@ import qrcode
 
 def generate_google_maps_qr_code(google_maps_url):
     # Construct the Google Maps URL
-    google_maps_url = f"https://maps.app.goo.gl/mgWBwxvErXdKbpwc7"
+    google_maps_url = f"Your Location"
 
     # Generate the QR code
     qr = qrcode.QRCode(
@@ -24,5 +24,5 @@ def generate_google_maps_qr_code(google_maps_url):
 
 
 # Example usage:
-location = "https://maps.app.goo.gl/mgWBwxvErXdKbpwc7"
+location = "Your Location"
 generate_google_maps_qr_code(location)
