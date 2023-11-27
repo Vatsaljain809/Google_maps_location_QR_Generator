@@ -26,3 +26,4 @@ def generate_google_maps_qr_code(google_maps_url):
 # Example usage:
 location = "Your Location"
 generate_google_maps_qr_code(location)
+HELLO
